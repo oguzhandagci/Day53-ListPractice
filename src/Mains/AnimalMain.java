@@ -8,6 +8,9 @@ import java.util.Scanner;
 public class AnimalMain {
     public static void main(String[] args) {
 
+        Animal animal1=new Animal("Gessi",true,2);
+        Animal animal2=new Animal("Mochi");
+
         Scanner scanner = new Scanner(System.in);
         String nameOfAnimal;
         String response;

@@ -3,11 +3,21 @@ package Classes;
 public class Animal {
     String  name;
     boolean isItDog;
+    int age;
 
     public Animal (String name, boolean isItDog){
 
         this.name = name;
         this.isItDog = isItDog;
+    }
+    public Animal(String name){
+        this.name=name;
+    }
+
+    public Animal(String name,boolean isItDog, int age){
+        this.name = name;
+        this.isItDog = isItDog;
+        this.age=age;
     }
 
     public void setName(String name){

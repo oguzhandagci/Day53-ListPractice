@@ -1,5 +1,4 @@
 package Classes;
-
 public class TvShow {
 
     String nameOfTheShow;
@@ -16,6 +15,15 @@ public class TvShow {
 
     public String getGenre() {
         return genre;
+    }
+
+    public TvShow (String nameOfTheShow){
+        this.nameOfTheShow = nameOfTheShow;
+    }
+
+    public TvShow (String nameOfTheShow, int numberOfEpisodes){
+        this.nameOfTheShow = nameOfTheShow;
+        this.numberOfEpisodes = numberOfEpisodes;
     }
 
     public TvShow (String nameOfTheShow, int numberOfEpisodes, String genre){

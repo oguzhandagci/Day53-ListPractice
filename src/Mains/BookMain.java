@@ -11,6 +11,10 @@ public class BookMain {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Book> bookList = new ArrayList<Book>();
 
+        Book book1 = new Book("The catcher in the rye", 277,1951, 5 );
+        Book book2 = new Book("Out of this furnace", 424,1941, "novel",3);
+
+
         while (true) {
             System.out.println("What is the name of the book?");
             String name = scanner.nextLine();
